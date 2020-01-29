@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Project</string>
+    <string name="warning_no_conection">Internet connection has been lost</string>
+    <string name="generic_error_message">There was an error, retry later</string>
+
+</resources>
