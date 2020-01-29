@@ -26,6 +26,10 @@ abstract class BaseActivity: AppCompatActivity(), BaseMvpFragment.ActivityProgre
         toolbar.title = getString(resTitleId)
     }
 
+    protected fun setToolbarTitle(resTitle: String) {
+        toolbar.title = resTitle
+    }
+
     override fun onSupportNavigateUp(): Boolean {
         onBackPressed()
         return true
